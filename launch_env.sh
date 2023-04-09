@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+#Force F150 fingerprint
+export SKIP_FW_QUERY=1
+export FINGERPRINT="F150"
+
 export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
